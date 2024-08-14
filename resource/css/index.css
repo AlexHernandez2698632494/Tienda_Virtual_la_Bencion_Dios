@@ -1,0 +1,117 @@
+/* Estilos específicos para index.php */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos y párrafos */
+h1 {
+    font-size: 2.5em;
+    color: #1a5723;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.carousel-inner img {
+    max-height: 300px; /* Reducir la altura máxima de las imágenes */
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Botones de navegación del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.nav-bar + .carousel {
+    margin-top: 0;
+}
+
+/* Eliminar cualquier margen o padding en la parte superior del carrusel */
+.carousel {
+    margin-top: 0;
+    padding-top: 0;
+}
+/* Estilo para la imagen principal */
+.main-image img {
+    width: 80%;
+    height: 20%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los contenedores de producto */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+}
+
+.product-container {
+    background-color: #c71212; /* Fondo gris similar al de la imagen */
+    border-radius: 15px; /* Bordes redondeados */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 6px solid #0fdf4e; /* Barra superior gris */
+}
+
+.product-container img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc; /* Línea de separación */
+    padding-bottom: 10px;
+}
+
+.product-container h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0 0 0;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .product-container img {
+        max-width: 80%;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .carousel-inner img {
+        max-height: 300px;
+    }
+}
