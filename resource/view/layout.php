@@ -13,7 +13,10 @@
         <div class="logo">Logo</div>
         <div class="icons">
             <i class="bi bi-person-fill"></i>
-            <i class="bi bi-cart4"></i>
+            <a href="url_de_tu_nueva_vista" class="btn btn-primary">
+  <i class="bi bi-cart4"></i> Ir a la compra
+</a>
+
         </div>
     </div>
 
