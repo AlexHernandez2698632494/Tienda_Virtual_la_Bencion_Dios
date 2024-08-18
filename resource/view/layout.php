@@ -18,9 +18,9 @@
     </div>
 
     <div class="nav-bar">
-        <a href="#">Inicio</a>
+        <a href="index.php">Inicio</a>
         <a href="Corporativo.php">Corporativo</a>
-        <a href="#">Contacto</a>
+        <a href="contacto.php">Contacto</a>
         <div class="dropdown">
             <a href="#" class="dropbtn">Productos ▼</a>
             <div class="dropdown-content">
