@@ -1,0 +1,84 @@
+h1::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: #ff6347;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.history-mission {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.history, .mission {
+    flex: 1145%;
+    margin: 020px;
+}
+
+.history-image, .mission-image {
+    flex: 1145%;
+    position: relative;
+    overflow: hidden;
+    margin: 020px;
+}
+
+.history-image {
+    order: 2;
+}
+
+.mission-image {
+    order: 1;
+}
+
+.history-imageimg, .mission-imageimg {
+    width: 100%;
+    height: auto;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+.history-image::before, .mission-image::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #ff6347;
+    z-index: -1;
+    transform: rotate(-10deg);
+    border-radius: 10px;
+}
+
+.title {
+    color: #ff6347;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+blockquote {
+    font-style: italic;
+    color: #777;
+    border-left: 6px solid #ff6347;
+    padding-left: 20px;
+    margin: 40px0;
+    position: relative;
+}
+
+blockquote::before {
+    content: '“';
+    font-size: 3rem;
+    color: #ff6347;
+    position: absolute;
+    top: -10px;
+    left: -30px;
+}

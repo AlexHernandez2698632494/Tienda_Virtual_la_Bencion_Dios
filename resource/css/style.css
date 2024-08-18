@@ -10,66 +10,70 @@
 .page-content {
     flex: 1;
 }
-
-.top-bar {
-    background: linear-gradient(to right, #191c26, #1b2123, #020A0E, #040c10);  
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.top-bar .logo {
-    background-color: #2d7087;
+.dropdown .logo a{
     padding: 10px;
     border-radius: 5px;
     color: white;
+    text-decoration: none;
 }
-.top-bar .icons {
+.dropdown .icons {
     display: flex;
     gap: 20px;
     font-size: 24px;
 }
-.top-bar .icons i {
+.dropdown .icons i {
     color: rgb(255, 255, 255);
 }
-.nav-bar {
-    background-color: #1a5723;
+.dropdown{
+    background-color: #23627a;
     padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
 }
-.nav-bar a {
+.nav{
+    max-width: 80%;
+    margin: auto;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 25px 20px;
     color: white;
     text-decoration: none;
-    padding: 10px;
-    background-color: #2d7087;
-    border-radius: 5px;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
-.nav-bar a:hover {
-    background-color: #1f5a6d;
+.menu-vertical > li > a{
+    color: white;
+    text-decoration: none;
 }
-/* Menú desplegable */
-.dropdown {
-    position: relative;
-    display: inline-block;
+.menu-vertical > li > a:hover{
+    color: #23627a;
 }
-.dropdown-content {
-    display: none;
+.menu-horizontal > li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menu-vertical{
     position: absolute;
-    background-color: #2d7087;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
 }
 .dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-decoration: none;
 }
 .dropdown-content a:hover {
     background-color: #1f5a6d;
@@ -77,10 +81,109 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .footer {
-    background-color: #23627a;
+    border-top: 1px solid #ffffff33; /* Borde superior sutil */
+    background-color: #2f2f30;
     padding: 10px;
     text-align: center;
     color: white;
     width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #e0e0e0; /* Color de enlace */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-section p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-section a {
+    color: #e0e0e0; /* Color de enlace */
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-section p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #fff; /* Asegurando el color blanco */
+}
+
+.socials a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-section {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .footer-section h2 {
+        font-size: 16px;
+    }
+    
+    .footer-section ul li a {
+        font-size: 14px;
+    }
+
+    .footer-section p {
+        font-size: 14px;
+    }
+
+    .socials a {
+        margin-right: 8px;
+        font-size: 18px;
+    }
 }
