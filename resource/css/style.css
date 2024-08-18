@@ -10,66 +10,70 @@
 .page-content {
     flex: 1;
 }
-
-.top-bar {
-    background: linear-gradient(to right, #191c26, #1b2123, #020A0E, #040c10);  
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.top-bar .logo {
-    background-color: #2d7087;
+.dropdown .logo a{
     padding: 10px;
     border-radius: 5px;
     color: white;
+    text-decoration: none;
 }
-.top-bar .icons {
+.dropdown .icons {
     display: flex;
     gap: 20px;
     font-size: 24px;
 }
-.top-bar .icons i {
+.dropdown .icons i {
     color: rgb(255, 255, 255);
 }
-.nav-bar {
-    background-color: #1a5723;
+.dropdown{
+    background-color: #23627a;
     padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
 }
-.nav-bar a {
+.nav{
+    max-width: 80%;
+    margin: auto;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 25px 20px;
     color: white;
     text-decoration: none;
-    padding: 10px;
-    background-color: #2d7087;
-    border-radius: 5px;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
-.nav-bar a:hover {
-    background-color: #1f5a6d;
+.menu-vertical > li > a{
+    color: white;
+    text-decoration: none;
 }
-/* Menú desplegable */
-.dropdown {
-    position: relative;
-    display: inline-block;
+.menu-vertical > li > a:hover{
+    color: #23627a;
 }
-.dropdown-content {
-    display: none;
+.menu-horizontal > li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menu-vertical{
     position: absolute;
-    background-color: #2d7087;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
 }
 .dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-decoration: none;
 }
 .dropdown-content a:hover {
     background-color: #1f5a6d;
