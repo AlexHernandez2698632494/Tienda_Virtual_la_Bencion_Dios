@@ -77,10 +77,109 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .footer {
-    background-color: #23627a;
+    border-top: 1px solid #ffffff33; /* Borde superior sutil */
+    background-color: #2f2f30;
     padding: 10px;
     text-align: center;
     color: white;
     width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #e0e0e0; /* Color de enlace */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-section p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.footer-section a {
+    color: #e0e0e0; /* Color de enlace */
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-section p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #fff; /* Asegurando el color blanco */
+}
+
+.socials a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+.socials a:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-section {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .footer-section h2 {
+        font-size: 16px;
+    }
+    
+    .footer-section ul li a {
+        font-size: 14px;
+    }
+
+    .footer-section p {
+        font-size: 14px;
+    }
+
+    .socials a {
+        margin-right: 8px;
+        font-size: 18px;
+    }
 }
