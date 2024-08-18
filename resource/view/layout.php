@@ -13,16 +13,14 @@
         <div class="logo">Logo</div>
         <div class="icons">
             <i class="bi bi-person-fill"></i>
-            <a href="url_de_tu_nueva_vista" class="btn btn-primary">
-  <i class="bi bi-cart4"></i> Ir a la compra
-</a>
-
+            <a href="./carrito.php" class="btn btn-primary"> <i class="bi bi-cart4"></i> Ir a la compra</a>
         </div>
     </div>
 
     <div class="nav-bar">
         <a href="#">Inicio</a>
         <a href="#">Corporativo</a>
+        <a href="carrito.php">Carrito</a>
         <a href="#">Contacto</a>
         <div class="dropdown">
             <a href="#" class="dropbtn">Productos ▼</a>
