@@ -58,7 +58,7 @@ h1::after {
     border-radius: 10px;
 }
 
-h2 {
+.title {
     color: #ff6347;
     font-size: 2rem;
     margin-bottom: 20px;

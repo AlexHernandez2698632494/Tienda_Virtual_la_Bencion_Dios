@@ -9,7 +9,7 @@ $pageContent = '
         
         <div class="history-mission">
             <div class="history">
-                <h2>Historia</h2>
+                <h2 class="title">Historia</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat consequat enim, non auctor massa ultrices non. Morbi sed odio massa. Quisque at vehicula tellus, sed tincidunt augue.</p>
                 <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas varius egestas diam, eu sodales metus scelerisque congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
             </div>
@@ -23,7 +23,7 @@ $pageContent = '
                 <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_1280.jpg" alt="Misión">
             </div>
             <div class="mission">
-                <h2>Nuestra Misión</h2>
+                <h2 class="title">Nuestra Misión</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat consequat enim, non auctor massa ultrices non. Morbi sed odio massa. Quisque at vehicula tellus, sed tincidunt augue.</p>
                 <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas varius egestas diam, eu sodales metus scelerisque congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
             </div>
@@ -40,4 +40,3 @@ include 'layout.php';
 ?>
 
 <link rel="stylesheet" href="../css/Corporativo.css">
-<link rel="stylesheet" href="../css/style.css">
