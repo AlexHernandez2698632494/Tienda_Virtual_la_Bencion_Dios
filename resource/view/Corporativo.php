@@ -38,4 +38,6 @@ $pageContent = '
 
 include 'layout.php';
 ?>
+
 <link rel="stylesheet" href="../css/Corporativo.css">
+<link rel="stylesheet" href="../css/style.css">
