@@ -16,21 +16,23 @@
             <i class="bi bi-cart4"></i>
         </div>
     </div>
-
-    <div class="nav-bar">
-        <a href="#">Inicio</a>
-        <a href="#">Corporativo</a>
-        <a href="#">Contacto</a>
-        <div class="dropdown">
-            <a href="#" class="dropbtn">Productos ▼</a>
-            <div class="dropdown-content">
-                <a href="#">Producto 1</a>
-                <a href="#">Producto 2</a>
-                <a href="#">Producto 3</a>
-            </div>
-        </div>
+    <div class="dropdown">
+        <nav class="nav">
+            <ul class="menu-horizontal">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Corporativo</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li>
+                    <a class="menu">Productos</a>
+                    <ul class="menu-vertical">
+                        <li><a href="">Llantas</a></li>
+                        <li><a href="">Lubricantes</a></li>
+                        <li><a href="">Accesorios</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </div>
-
     <!-- Aquí se insertará el contenido específico de la página -->
     <div class="page-content">
         <?php if (isset($pageContent)) echo $pageContent; ?>
