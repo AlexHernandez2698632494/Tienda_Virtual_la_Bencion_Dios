@@ -14,14 +14,14 @@
         <nav class="nav">
             <ul class="menu-horizontal">
                 <li><a href="index.php">Inicio</a></li>
-                <li><a href="#">Corporativo</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="corporativo.php">Corporativo</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
                 <li>
                     <a class="menu">Productos</a>
                     <ul class="menu-vertical">
-                        <li><a href="llantas.php">Llantas</a></li>
-                        <li><a href="">Lubricantes</a></li>
-                        <li><a href="">Accesorios</a></li>
+                        <li><a href="llantas.php">Producto 1</a></li>
+                        <li><a href="lubricantes.php">Producto 2</a></li>
+                        <li><a href="accesosrios.php">producto 3</a></li>
                     </ul>
                 </li>
             </ul>
