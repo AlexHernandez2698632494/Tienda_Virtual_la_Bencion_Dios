@@ -158,6 +158,11 @@
 .socials a:hover {
     color: #fff;
 }
+.btn-black {
+    background-color: black !important;
+    border-color: black !important;
+    color: white !important;
+}
 
 @media (max-width: 768px) {
     .footer-content {
