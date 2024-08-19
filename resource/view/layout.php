@@ -16,6 +16,7 @@
             <ul class="menu-horizontal">
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="corporativo.php">Corporativo</a></li>
+                <li><a href="carrito.php">Carrito</a></li>
                 <li><a href="contacto.php">Contacto</a></li>
                 <li>
                     <a class="menu">Productos</a>
