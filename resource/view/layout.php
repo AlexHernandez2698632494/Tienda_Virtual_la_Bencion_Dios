@@ -30,8 +30,8 @@
         </nav>
         <div class="icons">
             <i class="bi bi-person-fill"></i>
-            <i class="bi bi-cart4"></i>
-        </div>
+            <a href="./carrito.php" class="btn btn-primary btn-black"><i class="bi bi-cart4"></i></a>
+            </div>
     </div>
 
     <!-- Aquí se insertará el contenido específico de la página -->
