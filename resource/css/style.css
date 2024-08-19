@@ -159,9 +159,9 @@
     color: #fff;
 }
 .btn-black {
-    background-color: black;
-    border-color: black;
-    color: rgb(16, 0, 0);
+    background-color: black !important;
+    border-color: black !important;
+    color: white !important;
 }
 
 @media (max-width: 768px) {
