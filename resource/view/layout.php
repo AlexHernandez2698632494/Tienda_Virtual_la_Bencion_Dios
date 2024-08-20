@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="../css/contacto.css">
 </head>
 <body>
-<div class="dropdown">
     <div class="logo"><a href="#">logo</a></div>
         <nav class="nav">
             <ul class="menu-horizontal">
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="corporativo.php">Corporativo</a></li>
+                <li><a href="carrito.php">Carrito</a></li>
                 <li><a href="contacto.php">Contacto</a></li>
                 <li>
                     <a class="menu">Productos</a>
@@ -32,12 +32,13 @@
             <i class="bi bi-cart4"></i>
         </div>
     </div>
-
+            <a href="./carrito.php" class="btn btn-primary btn-black"><i class="bi bi-cart4"></i></a>
+            </div>
+    </div>
     <!-- Aquí se insertará el contenido específico de la página -->
     <div class="page-content">
         <?php if (isset($pageContent)) echo $pageContent; ?>
     </div>
-
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section categorias">
@@ -60,12 +61,10 @@
                 </div>
             </div>
         </div>
+    </div>
     </footer>
-
-
 
     <!-- Scripts de Bootstrap y JavaScript necesarios -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-

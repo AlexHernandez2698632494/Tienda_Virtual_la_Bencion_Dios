@@ -1,4 +1,4 @@
- /* Estilos básicos para el layout */
+ /* Estilos básicos para el layout y menu desplegable */
  body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -45,7 +45,7 @@
     display: block;
     padding: 25px 20px;
     color: white;
-    text-decoration: none;
+
 }
 .menu-vertical > li > a{
     color: white;
@@ -83,7 +83,6 @@
 }
 
 .footer {
-    border-top: 1px solid #ffffff33; /* Borde superior sutil */
     background-color: #2f2f30;
     padding: 10px;
     text-align: center;
@@ -164,7 +163,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .footer-section {
         margin-bottom: 20px;
         text-align: center;
