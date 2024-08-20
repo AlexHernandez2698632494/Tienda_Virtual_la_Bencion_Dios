@@ -7,21 +7,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contacto.css">
 </head>
 <body>
-    <div class="dropdown">
     <div class="logo"><a href="#">logo</a></div>
         <nav class="nav">
             <ul class="menu-horizontal">
                 <li><a href="index.php">Inicio</a></li>
-                <li><a href="#">Corporativo</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="corporativo.php">Corporativo</a></li>
+                <li><a href="carrito.php">Carrito</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
                 <li>
                     <a class="menu">Productos</a>
                     <ul class="menu-vertical">
-                        <li><a href="llantas.php">Llantas</a></li>
-                        <li><a href="">Lubricantes</a></li>
-                        <li><a href="">Accesorios</a></li>
+                        <li><a href="llantas.php">Producto 1</a></li>
+                        <li><a href="lubricantes.php">Producto 2</a></li>
+                        <li><a href="accesosrios.php">producto 3</a></li>
                     </ul>
                 </li>
             </ul>
@@ -31,13 +32,15 @@
             <i class="bi bi-cart4"></i>
         </div>
     </div>
+            <a href="./carrito.php" class="btn btn-primary btn-black"><i class="bi bi-cart4"></i></a>
+            </div>
+    </div>
     <!-- Aquí se insertará el contenido específico de la página -->
     <div class="page-content">
         <?php if (isset($pageContent)) echo $pageContent; ?>
     </div>
-
-    <div class="footer">
-    <div class="footer-content">
+    <footer class="footer">
+        <div class="footer-content">
             <div class="footer-section categorias">
                 <h2>Categorías</h2>
                 <ul>
@@ -59,6 +62,7 @@
             </div>
         </div>
     </div>
+    </footer>
 
     <!-- Scripts de Bootstrap y JavaScript necesarios -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
