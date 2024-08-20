@@ -21,8 +21,11 @@
     gap: 20px;
     font-size: 24px;
 }
-.dropdown .icons i {
+.icons i {
     color: rgb(255, 255, 255);
+}
+.icons > a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .dropdown{
     background-color: #23627a;
@@ -31,6 +34,9 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
+}
+.dropdown a{
+    text-decoration: none;
 }
 .nav{
     max-width: 80%;

@@ -16,7 +16,7 @@ $pageContent = '
                 <h3>Dunlop Direzza-DZ102 Sedan</h3>
                 <p class="precio">Precio: $89.99</p>
                 <p>El DIREZZA DZ102 posee un excelente desempeño en condiciones de lluvia. Desarrollado para usuarios de vehículos deportivos y sedanes, posee un atractivo diseño que combina estabilidad, maniobrabilidad y desempeño anti hidroplaneo</p>
-                <button class="button" src="">Agregar al carrito</button>
+                <a href="carrito.php"><button class="button" src="">Agregar al carrito</button></a>
             </div>
         </div>
         <div class="card">
@@ -28,7 +28,7 @@ $pageContent = '
                 <h3>Dunlop Direzza-ZIII Sedán</h3>
                 <p class="precio">Precio: $79.99</p>
                 <p>Desempeño extremo en verano CARACTERÍSTICAS El DIREZZA ZIII es el neumático de rendimiento extremo de Dunlop, diseñado para los conductores de autos deportivos y sedanes de alto rendimiento que buscan niveles de tracción y manejo cercanos a los deportes de motor.</p>
-                <button class="button" src="">Agregar al carrito</button>
+                <button class="button" src="carrito.php">Agregar al carrito</button>
             </div>
         </div>
         <div class="card">

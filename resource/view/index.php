@@ -46,19 +46,19 @@ $pageContent .= '
     <div class="row">
         <div class="col">
             <div class="product-container">
-                <h3>Repuestos</h3>
                 <img src="../../public/img/repuestos.png" alt="Repuestos">
+                <h3>Repuestos</h3>
             </div>
         </div>
         <div class="col">
             <div class="product-container">
-                <img src="../../public/img/llantas.png" alt="Llantas">
+                <img src="../../public/img/llanta1.png" alt="Llantas">
                 <h3>Llantas</h3>
             </div>
         </div>
         <div class="col">
             <div class="product-container">
-                <img src="../../public/img/lubricantes.png" alt="Lubricantes">
+                <img src="../../public/img/lubricantes.webp" alt="Lubricantes">
                 <h3>Lubricantes</h3>
             </div>
         </div>
